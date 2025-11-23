@@ -12,13 +12,13 @@ class Solution:
                 low = mid + 1
         return -1
     
-lista = [1, 3, 5, 7, 9, 11, 13]
+my_list = [1, 3, 5, 7, 9, 11, 13, 25, 30, 35]
 
 # Criando uma instância da classe
-sol = Solution()
+object = Solution()
 
 # Buscando um número na lista
-numero_procurado = 9
-resultado = sol.Search(lista, numero_procurado)
+target_number = 9
+result = object.Search(my_list, target_number)
 
-print(f"O número {numero_procurado} está na posição {resultado}")
+print(f"O número {target_number} está no index {result}")
